@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Barra de Navegação*/
+.Logo_NavBar{
+    width: 100px;
+}
+
+.NavBar{
+    background-color: black;
+    opacity: 0.89;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.NavBar_Links{
+    display: flex;
+    align-items: stretch;
+}
+
+.NavBar_item{
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    color: #ffcc80;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.NavBar a.active{
+    background-color: #ffcc80;
+    color: black;
+}
+
+.NavBar a:hover{
+    background-color: #ddd;
+    color: black;
+    transition: 0.6s;
+   
+}
+/* ----------------------------------------------- */
+/*Banner Home*/
+
+.Banner{
+    width: 100%;
+    height: 50em;
+}
+
+.Container{
+    display: flex;
+}
+
+.On_Image{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50em;
+}
+
+.Center_image{
+    width: 25em;
+}
+
+.Center{
+    text-align: center;
+    font-size: 38px;
+    color: #ffcc80;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Sobre o Chef */
+
+.Col{
+    /* background-image: url(imgs/home/fundo\ madeira.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 5%;    
+    
+
+}
+
+.Image_Chef{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+   
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    width: 50%;
+    border-top: 1px solid #ffcc80;
+    margin-top: 2%;
+}
+
+/* Fontes h1, h2 e p */
+
+.yellow_cursive_font{
+    font-family: 'pacifico', cursive;
+    color: #ffcc80;
+}
+
+.default_font{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Especialidades */
+
+.special {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.dishers {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.other{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2%;
+    grid-column-gap: 2%;
+    padding: 2%;
+}
+
+.dishers-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #ffcc80;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    padding: 2% 6%;
+}
+
+.icons{
+    width: 20px;
+    
+    align-items: flex-end;
+}
+
+.ColA{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ColB{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ColC{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+/* pagina de menu */
+
+/* pratos mais pedidos */
+.most-ordem-item-description{
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 4%;
+}
+
+.most-ordem-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.most-orded{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    padding: 2% 6%;
+}
+
+/* Menu */
+
+.entries{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    padding: 2% 6%;
+}
+
+.price{
+    font-family: 'Roboto', sans-serif;
+    color: #ffcc80;
+    text-align: end;
+    font-weight: bolder;
+}
+
+/* pagina contato */
+
+.infos{
+    display: grid;
+    grid-column-gap: 2%;
+    padding: 2% 6%;
+}
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 2%;
+}
+
+form div + div{
+    margin-top: 1cm;
+}
+
+input, textarea{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffcc80;
+    color: white;
+    width: 100%;
+    height: 30px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ffcc80;
+}
+
+input:focus, textarea:focus{
+    border-color: #e0e0e0;
+}
+
+.button{
+    display: grid;
+    justify-content: end;
+}
+
+button{
+    font-family:  'Roboto', sans-serif;
+    background-color: #ffcc80;
+    color: gray;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 10px solid #ffcc80;
+}
+
+
